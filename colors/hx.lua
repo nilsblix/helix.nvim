@@ -5,7 +5,7 @@ if vim.g.colors_name then
 end
 
 vim.o.termguicolors = true
-vim.g.colors_name = "hx"
+vim.g.colors_name = "helix"
 
 require("helix").setup = require("helix.util").apply
 require("helix.util").apply()

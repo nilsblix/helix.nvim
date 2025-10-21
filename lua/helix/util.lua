@@ -15,7 +15,7 @@ end
 
 function M.reload()
   reset_modules()
-  vim.cmd("colorscheme hx")
+  vim.cmd("colorscheme helix")
 end
 
 return M
